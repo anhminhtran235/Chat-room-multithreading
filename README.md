@@ -1,7 +1,7 @@
 # Chat-room-multithreading
 This Chat room is created using Multithreading in Java.
 
-In order to successfully run this Chat room, you need to make some changes:
+In order to successfully run this Chat room, YOU NEED TO MAKE SOME CHANGES:
 - Add your own server Public IP Address (It could be your computer IP address. Google search: "My public IP Address") in Client.java on line 31
 - Enter your own directory to save userName, Password and Historical Messages in 2 files: Server.java (line 28 29) and Worker.java (line 32 33). Those directories should match. You'll understand once you open the files.
 - When you run it, run Server.java on your server Computer first. And then run client.java (Either on the same computer or a different computer). You only need to run those 2 files.
