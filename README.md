@@ -6,6 +6,10 @@ In order to successfully run this Chat room, you need to make some changes:
 - Enter your own directory to save userName, Password and Historical Messages in 2 files: Server.java (line 28 29) and Worker.java (line 32 33). Those directories should match. You'll understand once you open the files.
 - When you run it, run Server.java on your server Computer first. And then run client.java (Either on the same computer or a different computer). You only need to run those 2 files.
 
+HOW MY CHATROOM FUNCTIONS:
+- Server.java will be run on a Server Computer. It will constantly receive new clients. Whenever a client is connected, Server will create a Worker (in Worker.java) in a separate thread to deal with the client. The server is then free to receive new clients.
+- Each client will have a ListenClient (To receive messages sent from the Server) and a SpeakClient (To read input from the keyboard and send it to the Server)
+
 ABOUT MY CHATROOM:
 - It is Multithreaded. Multiple clients can connects with my server at the same time.
 - It is Object Oriented. I created multiple classes with specific purposes and let them communicate with each other.
